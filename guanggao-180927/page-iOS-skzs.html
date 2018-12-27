@@ -17,10 +17,10 @@
             h3 {margin: 10% 0 6% 0;}
             p {margin: 0 0 4% 0 ;}
             p,h3 {text-align: center; color: #333; font-size: 20px;}
-            video {background-color: #dbdbdb;}
             span {display: block; width: 100%; text-align: center; font-size: 14px;color: #333;margin: 8px 0 32px 0;}
             .content {padding: 16px;}
             footer {height: 40px;}
+            video {background-color: #999;}
         </style>
     </head>
     <body>
@@ -29,8 +29,9 @@
         </header>
         <div class="content">
             <div>
-                <video controls="controls" width="100%" height="auto" preload="metadata">
+                <video id="video" controls="controls" width="100%" height="auto" preload="metadata" poster="/images/img-20181227.png">
                             <source src="images/mp4-181227.mp4" type="video/mp4">
+                            <source src="movie.ogg" type="video/ogg">
                         </video>
             </div>
 
@@ -57,5 +58,7 @@
 
         </div>
         <footer></footer>
+    
+
     </body>
 </html>
